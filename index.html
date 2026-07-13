@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>yazin's blog</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #111;
+            color: #ccc;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        .date {
+            color: #666;
+            font-size: 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>yazin's blog</h1>
+
+
+    <article>
+      <div class="date">10-7-2026 </div>
+        <h2>my little guy</h2>
+        <p>i'm planning to make a little laptop using an ESP32, a 1200 mAh battery, a charge circuit, a 3.3v buck converter, a 1.8 inch TFT display, and a whole bunch of buttons. it's currently a WIP, but so far everything is hooked up except for the display. i'm waiting on it from amazon.</p>
+    </article>
+    
+    <article>
+      <div class="date">5-6-2026 </div>
+        <h2>everything going on recently</h2>
+        <p>to put it simply, alot happened. aspen was renamed (not saying the name for privacy reasons), vnix was restarted from scratch (even better than last time), and we got a productivity boost subsequently. vnix now has a proper module/initramfs system, and i'm pretty proud of that. will update soon.</p>
+    </article>
+    
+    <article>
+      <div class="date">24-03-2026 </div>
+        <h2>my eternal OSDev nightmare</h2>
+        <p>so basically, exec pagefaults and i dont know why as of now, so i concluded that i had to restart the OS from scratch. little did i know, i would have to do my entire journey from scratch, so i decided to not restart and keep the current os. right now trying to debug exec, will keep yall updated.</p>
+    </article>
+    
+    <article>
+      <div class="date">14-03-2026 </div>
+        <h2>ext2 vs exfat, and how i decided</h2>
+        <p>long story short, ext2 was being a pain in my ass in vnix, so i decided to go down the exfat route. hopefully exfat isnt as much as a pain as ext2 was.</p>
+    </article>
+    
+    <article>
+        <div class="date">03-03-2026</div>
+        <h2>the sysretq bug</h2>
+        <p>spent 3 weeks debugging why sysretq corrupted my stack. switched to iretq. works now.</p>
+    </article>
+
+    <article>
+        <div class="date">19-02-2026</div>
+        <h2>ring-3 works</h2>
+        <p>vnix can finally do syscalls without exploding. next: ext2 file reading.</p>
+    </article>
+
+    <article>
+        <div class="date">START(dd-mm-yyyy)</div>
+        <h2>hello world</h2>
+        <p>starting a blog. mostly kernel stuff and flight sim things.</p>
+    </article>
+</body>
+</html>
